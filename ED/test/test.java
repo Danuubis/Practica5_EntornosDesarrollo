@@ -6,13 +6,15 @@ public class test {
 
     @Test
     public void testGetNombre(){
-        Assertions.assertEquals("Daniel", alumno.getNombre());
+        Assertions.assertEquals("David", alumno.getNombre());
     }
 
+    @Test
     public void testGetEdad(){
         Assertions.assertEquals(19, alumno.getEdad());
     }
 
+    @Test
     public void testGetDNI(){
         Assertions.assertEquals("X4069919T", alumno.getDNI());
     }
